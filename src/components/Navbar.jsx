@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="flex flex-row justify-center items-center gap-4">
+    <div className="flex flex-row justify-center items-center gap-15 text-2xl p-10">
       <h1>About</h1>
       <h1>Experience</h1>
       <h1>Projects</h1>

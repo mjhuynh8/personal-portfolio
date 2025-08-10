@@ -9,11 +9,13 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-center">
       <Navbar />
-      <Intro />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <div className="p-10">
+        <Intro />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </div>
     </div>
   );
 }
