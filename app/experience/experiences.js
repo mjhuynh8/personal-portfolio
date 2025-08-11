@@ -1,0 +1,48 @@
+export const experience = [
+  {
+    company: "FloQast",
+    title: "Software Engineer Intern",
+    startDate: "June 2025",
+    endDate: "August 2025",
+    description: [
+      "Joined the Close Automation team focused on journal entry management at FloQast, a Series E B2B SaaS startup helping accounting teams streamline the month-end close process",
+      "Built and shipped the Actions View feature, improving workflow tracking efficiency by 50% and providing instant task visibility",
+      "Developed a scalable frontend infrastructure for a large-scale data labeling initiative, processing 25,000+ user interactions to generate actionable product insights and identify underused features",
+      "Partnered directly with product and design teams in an agile environment using Jira and Git, delivering frontend enhancements in React/JavaScript to address user feedback and drive product improvements",
+      "Strengthened codebase stability by converting React components to TypeScript and achieving 100% test coverage across core features using Jest and Vitest",
+    ],
+    stack: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "Jest",
+      "Vitest",
+      "Jira",
+      "Git",
+    ],
+    link: "https://floqast.com",
+  },
+  {
+    company: "PRIME Lab",
+    title: "Undergraduate Researcher",
+    startDate: "Feb 2024",
+    endDate: "Jan 2025",
+    description: [
+      "Contributed to the PRIME Lab, an HCI/AI research group at Virginia Tech led by Dr. Yan Chen, focused on human-AI collaboration, programming tools, and real-time educational data analysis",
+      "Analyzed 250+ student-AI interaction events using PostgreSQL and SQL, revealing engagement patterns that contributed to research presented at CHI 2025 conference",
+      "Developed a web automation system powered by an AI-generated persona modeled on user personality traits, using React, JavaScript, Python, and Flask to explore the potential of personalized AI-driven automation",
+    ],
+    stack: [
+      "React",
+      "JavaScript",
+      "Python",
+      "Flask",
+      "PostgreSQL",
+      "SQL",
+      "Git",
+    ],
+    link: "https://chensivan.github.io/",
+  },
+];

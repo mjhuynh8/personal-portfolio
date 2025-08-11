@@ -1,0 +1,41 @@
+import { RxExternalLink } from "react-icons/rx";
+
+export default function ExperienceCard({
+  company,
+  title,
+  startDate,
+  endDate,
+  description,
+  stack,
+  link,
+}) {
+  return (
+    <div className="flex flex-col gap-4 border-2 border-gray-300 rounded-lg p-8">
+      <div className="flex flex-row gap-2 justify-between items-center">
+        <div className="flex flex-col gap-2">
+          <div className="flex flex-row gap-4 items-center">
+            <h1 className="text-4xl font-semibold">{company}</h1>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <RxExternalLink className="text-3xl translate-y-0.5" />
+            </a>
+          </div>
+          <h1 className="text-2xl">{title}</h1>
+        </div>
+        <span className="text-xl">
+          {startDate} - {endDate}
+        </span>
+      </div>
+      <div>
+        <ul className="list-disc list-outside text-xl pl-5">
+          {description.map((item, index) => (
+            <li key={index}>{item}</li>
+          ))}
+        </ul>
+      </div>
+      <div>
+        <h1 className="text-2xl pt-4 font-semibold">Stack:</h1>
+        <p className="text-xl">{stack.join(", ")}</p>
+      </div>
+    </div>
+  );
+}
