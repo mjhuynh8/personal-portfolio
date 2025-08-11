@@ -11,7 +11,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <nav className="flex gap-255 p-5 justify-center bg-secondary">
+    <nav className="flex gap-255 p-5 justify-center bg-primary border-b border-secondary">
       <div className="flex align-left">
         <Link href="/" className="flex items-center gap-2">
           <span className="text-2xl">marcushuynh</span>
