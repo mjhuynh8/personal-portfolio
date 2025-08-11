@@ -11,7 +11,7 @@ const links = [
 
 export default function Navbar() {
   return (
-    <nav className="flex gap-4 p-4 text-lg">
+    <nav className="flex gap-8 p-4 text-3xl">
       {links.map(({ href, label }) => {
         return (
           <Link key={href} href={href}>

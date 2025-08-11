@@ -12,8 +12,8 @@ export default function Home() {
     }, 2250);
   }, []);
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-5">
-      <h1 className="text-4xl font-bold">Marcus Huynh</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen gap-10">
+      <h1 className="text-8xl font-bold">Marcus Huynh</h1>
       {loading ? (
         <LoadingBar />
       ) : (
