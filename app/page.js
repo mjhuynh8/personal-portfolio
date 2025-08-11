@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Navbar from "./components/Navbar";
+import NavbarHome from "./components/NavbarHome";
 import LoadingBar from "./components/LoadingBar";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         <LoadingBar />
       ) : (
         <>
-          <Navbar />
+          <NavbarHome />
         </>
       )}
     </div>

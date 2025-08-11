@@ -15,8 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
-        <CheckHome>{children}</CheckHome>
+      <body
+        className={`${inter.variable} antialiased min-h-screen flex flex-col`}
+      >
+        <CheckHome className="flex-grow">{children}</CheckHome>
       </body>
     </html>
   );
