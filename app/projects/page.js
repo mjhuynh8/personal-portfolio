@@ -1,35 +1,13 @@
 export default function Projects() {
   return (
-    <div className="p-15 flex flex-col gap-10">
+    <div className="p-15 flex flex-col gap-15 max-w-screen-2xl mx-auto">
       <h1
         className="text-8xl tracking-tighter 
 text-balance"
       >
         Some of my work.
       </h1>
-      <div className="flex flex-col gap-10">
-        <div>
-          <h1 className="text-4xl">Hi, I&apos;m Marcus</h1>
-          <p className="text-lg">
-            I&apos;m a software engineer with a passion for building
-            user-friendly and efficient web applications.
-          </p>
-        </div>
-        <div>
-          <h1 className="text-4xl">My skills</h1>
-          <p className="text-lg">
-            I&apos;m a software engineer with a passion for building
-            user-friendly and efficient web applications.
-          </p>
-        </div>
-        <div>
-          <h1 className="text-4xl">My experience</h1>
-          <p className="text-lg">
-            I&apos;m a software engineer with a passion for building
-            user-friendly and efficient web applications.
-          </p>
-        </div>
-      </div>
+      <div className="flex flex-col gap-15"></div>
     </div>
   );
 }

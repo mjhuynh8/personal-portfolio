@@ -5,11 +5,9 @@ export const experience = [
     startDate: "June 2025",
     endDate: "August 2025",
     description: [
-      "Joined the Close Automation team focused on journal entry management at FloQast, a Series E B2B SaaS startup helping accounting teams streamline the month-end close process",
-      "Built and shipped the Actions View feature, improving workflow tracking efficiency by 50% and providing instant task visibility",
-      "Developed a scalable frontend infrastructure for a large-scale data labeling initiative, processing 25,000+ user interactions to generate actionable product insights and identify underused features",
-      "Partnered directly with product and design teams in an agile environment using Jira and Git, delivering frontend enhancements in React/JavaScript to address user feedback and drive product improvements",
-      "Strengthened codebase stability by converting React components to TypeScript and achieving 100% test coverage across core features using Jest and Vitest",
+      "I joined the Close Automation team focused on journal entry management at FloQast, a Series E B2B SaaS startup helping accounting teams streamline the month-end close process",
+      "My team and I built and shipped the Actions View feature to improve workflow tracking efficiency and provide instant task visibility",
+      "I also delivered a multitude of frontend enhancements in React/JavaScript to address user feedback and drive product improvements, collaborating with product and design teams in an agile environment using Jira and Git",
     ],
     stack: [
       "React",

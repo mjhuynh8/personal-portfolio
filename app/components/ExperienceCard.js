@@ -26,7 +26,7 @@ export default function ExperienceCard({
         </span>
       </div>
       <div>
-        <ul className="list-disc list-outside text-xl pl-5">
+        <ul className="list-disc list-outside text-xl pl-5 space-y-1">
           {description.map((item, index) => (
             <li key={index}>{item}</li>
           ))}
