@@ -9,9 +9,9 @@ const links = [
   { href: "/contact", label: "Contact" },
 ];
 
-export default function Navbar() {
+export default function NavbarHome() {
   return (
-    <nav className="flex gap-8 p-4 text-3xl">
+    <nav className="flex gap-8 p-4 text-2xl">
       {links.map(({ href, label }) => {
         return (
           <Link key={href} href={href}>
