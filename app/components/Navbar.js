@@ -1,12 +1,25 @@
-function Navbar() {
+"use client";
+
+import Link from "next/link";
+
+const links = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/experience", label: "Experience" },
+  { href: "/projects", label: "Projects" },
+  { href: "/contact", label: "Contact" },
+];
+
+export default function Navbar() {
   return (
-    <div className="flex flex-row justify-center items-center gap-15 text-2xl p-10">
-      <h1>About</h1>
-      <h1>Experience</h1>
-      <h1>Projects</h1>
-      <h1>Contact</h1>
-    </div>
+    <nav className="flex gap-4 p-4 border-b">
+      {links.map(({ href, label }) => {
+        return (
+          <Link key={href} href={href}>
+            {label}
+          </Link>
+        );
+      })}
+    </nav>
   );
 }
-
-export default Navbar;

@@ -1,19 +1,26 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
-import Intro from "./components/Intro";
-import About from "./components/About";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import LoadingBar from "./components/LoadingBar";
 
 export default function Home() {
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 2250);
+  }, []);
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen">
-      <Navbar />
-      <Intro />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+    <div className="flex flex-col items-center justify-center min-h-screen gap-5">
+      <h1 className="text-4xl font-bold">Marcus Huynh</h1>
+      {loading ? (
+        <LoadingBar />
+      ) : (
+        <>
+          <Navbar />
+        </>
+      )}
     </div>
   );
 }
