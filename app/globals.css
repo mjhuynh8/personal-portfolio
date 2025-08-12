@@ -52,12 +52,12 @@
     z-index: 1;
     background: var(--color-primary);
     position: relative;
-    font-weight: 1000;
-    font-size: 17px;
+    font-weight: 400;
+    font-size: 25px;
     box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.18);
     transition: all 250ms;
     overflow: hidden;
-    width: 160px;
+    width: 200px;
     text-align: center;
   }
 
@@ -114,6 +114,86 @@
         transparent
       );
     background-size: 55px 55px;
+  }
+
+  .navbar-link {
+    color: var(--color-text);
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+
+  .navbar-link:focus:after,
+  .navbar-link:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+
+  .navbar-link:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 1.5px;
+    background-color: var(--color-text);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+  .logo-link {
+    position: relative;
+    display: inline-block;
+    padding: 5px 15px;
+    border: 2px solid var(--color-text);
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .logo-link::before {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: -2px;
+    width: calc(100% + 4px);
+    height: calc(100% - 12px);
+    background-color: var(--color-primary);
+    transition: 0.3s ease-in-out;
+    transform: scaleY(1);
+  }
+
+  .logo-link:hover::before {
+    transform: scaleY(0);
+  }
+
+  .logo-link::after {
+    content: "";
+    position: absolute;
+    left: 6px;
+    top: -2px;
+    height: calc(100% + 4px);
+    width: calc(100% - 12px);
+    background-color: var(--color-primary);
+    transition: 0.3s ease-in-out;
+    transform: scaleX(1);
+    transition-delay: 0.3s;
+  }
+
+  .logo-link:hover::after {
+    transform: scaleX(0);
+  }
+
+  .logo-link span {
+    position: relative;
+    z-index: 3;
   }
 
   @keyframes animate-light {

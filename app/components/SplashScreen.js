@@ -8,7 +8,7 @@ export default function SplashScreen() {
   ]);
   const [introHidden, setIntroHidden] = useState(false);
 
-  const spans = useMemo(() => ["Marcus", "Huynh"], []);
+  const spans = useMemo(() => ["marcus", "huynh"], []);
 
   useEffect(() => {
     spans.forEach((_, idx) => {
