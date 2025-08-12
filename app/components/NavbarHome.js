@@ -11,11 +11,11 @@ const links = [
 
 export default function NavbarHome() {
   return (
-    <nav className="flex gap-8 p-4 text-2xl">
+    <nav className="flex flex-col items-center gap-10 p-4 text-2xl">
       {links.map(({ href, label }) => {
         return (
           <Link key={href} href={href}>
-            {label}
+            <button className="nav-button">{label}</button>
           </Link>
         );
       })}

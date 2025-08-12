@@ -25,6 +25,96 @@
     animation: animate-light 2.5s ease-in-out infinite;
   }
 
+  .splash-span {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+  }
+
+  .splash-span.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+  }
+
+  .splash-span.fade {
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+  }
+
+  .nav-button {
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: var(--color-text);
+    z-index: 1;
+    background: var(--color-primary);
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.18);
+    transition: all 250ms;
+    overflow: hidden;
+    width: 160px;
+    text-align: center;
+  }
+
+  .nav-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: var(--color-text);
+    z-index: -1;
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.18);
+    transition: all 250ms;
+  }
+
+  .nav-button:hover {
+    color: #e8e8e8;
+  }
+
+  .nav-button:hover::before {
+    width: 100%;
+  }
+
+  .container-background {
+    width: 100%;
+    height: 100%;
+    --color: #e1e1e17d;
+    background-color: var(--color-primary);
+    background-image: linear-gradient(
+        0deg,
+        transparent 24%,
+        var(--color) 25%,
+        var(--color) 26%,
+        transparent 27%,
+        transparent 74%,
+        var(--color) 75%,
+        var(--color) 76%,
+        transparent 77%,
+        transparent
+      ),
+      linear-gradient(
+        90deg,
+        transparent 24%,
+        var(--color) 25%,
+        var(--color) 26%,
+        transparent 27%,
+        transparent 74%,
+        var(--color) 75%,
+        var(--color) 76%,
+        transparent 77%,
+        transparent
+      );
+    background-size: 55px 55px;
+  }
+
   @keyframes animate-light {
     0% {
       left: -30%;
