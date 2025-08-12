@@ -32,9 +32,15 @@ export default function ExperienceCard({
           ))}
         </ul>
       </div>
-      <div>
-        <h1 className="text-2xl pt-4 font-semibold">Stack:</h1>
-        <p className="text-xl">{stack.join(", ")}</p>
+      <div className="flex flex-wrap gap-2 pt-2">
+        {stack.map((tech, index) => (
+          <span
+            key={index}
+            className="px-3 py-1 bg-secondary text-text rounded-full text-md"
+          >
+            {tech}
+          </span>
+        ))}
       </div>
     </div>
   );

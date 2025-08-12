@@ -2,7 +2,7 @@
 
 @theme {
   --color-primary: rgb(255, 255, 255); /* Light background color */
-  --color-secondary: rgb(180, 180, 180); /* Slightly darker background shade */
+  --color-secondary: rgb(235, 235, 235); /* Slightly darker background shade */
   --color-accent: rgb(146, 154, 171); /* Medium gray accent color */
   --color-text: rgb(3, 6, 19); /* Charcoal dark color */
 }

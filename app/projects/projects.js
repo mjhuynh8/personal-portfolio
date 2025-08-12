@@ -1,12 +1,38 @@
 export const projects = [
   {
-    name: "Project 1",
-    description: "Description of project 1",
-    link: "https://www.google.com",
+    name: "Personal Website",
+    description: "This website!",
+    links: [
+      {
+        name: "Github",
+        link: "https://github.com/marcus-huynh/portfolio-website",
+      },
+      {
+        name: "Demo",
+        link: "https://www.google.com",
+      },
+    ],
+    stack: ["Next.js", "Tailwind CSS", "React", "JavaScript", "HTML", "CSS"],
+    date: "Aug 2025",
   },
   {
-    name: "Project 2",
-    description: "Description of project 2",
-    link: "https://www.google.com",
+    name: "Youtube Companion",
+    description:
+      "A Chrome extension that adds an AI chatbot interface to Youtube videos.",
+    links: [
+      {
+        name: "Github",
+        link: "https://github.com/marcus-huynh/youtube-companion",
+      },
+    ],
+    stack: [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "Node.js",
+      "MongoDB",
+      "OpenAI",
+    ],
+    date: "May 2025",
   },
 ];

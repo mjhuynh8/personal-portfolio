@@ -5,9 +5,10 @@ export const experience = [
     startDate: "June 2025",
     endDate: "August 2025",
     description: [
-      "I joined the Close Automation team focused on journal entry management at FloQast, a Series E B2B SaaS startup helping accounting teams streamline the month-end close process",
-      "My team and I built and shipped the Actions View feature to improve workflow tracking efficiency and provide instant task visibility",
-      "I also delivered a multitude of frontend enhancements in React/JavaScript to address user feedback and drive product improvements, collaborating with product and design teams in an agile environment using Jira and Git",
+      "Joined the Close Automation team where I worked on the journal entry management feature",
+      "Built and shipped the Actions View feature to improve workflow tracking efficiency and provide instant task visibility",
+      "Delivered a multitude of frontend enhancements in React/JavaScript to address user feedback and drive product improvements",
+      "Collaborated with product and design teams in an agile environment using Jira and Git",
     ],
     stack: [
       "React",
@@ -28,9 +29,10 @@ export const experience = [
     startDate: "Feb 2024",
     endDate: "Jan 2025",
     description: [
-      "Contributed to the PRIME Lab, an HCI/AI research group at Virginia Tech led by Dr. Yan Chen, focused on human-AI collaboration, programming tools, and real-time educational data analysis",
-      "Analyzed 250+ student-AI interaction events using PostgreSQL and SQL, revealing engagement patterns that contributed to research presented at CHI 2025 conference",
-      "Developed a web automation system powered by an AI-generated persona modeled on user personality traits, using React, JavaScript, Python, and Flask to explore the potential of personalized AI-driven automation",
+      "Researched human-AI collaboration, programming tools, and real-time educational data analysis, mentored by Dr. Yan Chen",
+      "Performed data analysis using PostgreSQL and SQL, revealing engagement patterns that contributed to research presented at CHI 2025 conference",
+      "Developed a web automation system powered by an AI-generated persona modeled on user personality traits",
+      "Designed and conducted user studies to evaluate the effectiveness of different AI systems",
     ],
     stack: [
       "React",
