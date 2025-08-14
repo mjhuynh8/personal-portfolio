@@ -45,4 +45,12 @@ export const experience = [
     ],
     link: "https://chensivan.github.io/",
   },
+  {
+    company: "Virginia Tech Computer Science Department",
+    title: "Undergraduate Teaching Assistant",
+    startDate: "Aug 2024",
+    endDate: "Dec 2024",
+    description: ["TA for CS 3114: Data Structures and Algorithms"],
+    stack: ["Java"],
+  },
 ];

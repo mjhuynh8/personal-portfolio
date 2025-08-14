@@ -4,7 +4,7 @@ import { experience } from "./experiences";
 export default function Experience() {
   return (
     <div className="container-background min-h-screen">
-      <div className="p-15 flex flex-col gap-15 max-w-screen-2xl mx-auto">
+      <div className="px-20 py-15 flex flex-col gap-15 max-w-screen-2xl mx-auto">
         <h1
           className="text-8xl tracking-tighter 
 text-balance"

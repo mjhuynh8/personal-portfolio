@@ -5,11 +5,11 @@ export const projects = [
     links: [
       {
         name: "Github",
-        link: "https://github.com/marcus-huynh/portfolio-website",
+        link: "https://github.com/mjhuynh8/personal-portfolio",
       },
       {
         name: "Demo",
-        link: "https://www.google.com",
+        link: "https://www.marcushuynh.com",
       },
     ],
     stack: ["Next.js", "Tailwind CSS", "React", "JavaScript", "HTML", "CSS"],
@@ -22,7 +22,7 @@ export const projects = [
     links: [
       {
         name: "Github",
-        link: "https://github.com/marcus-huynh/youtube-companion",
+        link: "https://github.com/mjhuynh8/AI-Youtube-Companion",
       },
     ],
     stack: [
@@ -34,5 +34,18 @@ export const projects = [
       "OpenAI",
     ],
     date: "May 2025",
+  },
+  {
+    name: "Celestial Experiences",
+    description:
+      "A ROBLOX game studio that I started to learn more about game development and create games for fun.",
+    links: [
+      {
+        name: "Demo",
+        link: "https://www.roblox.com/communities/34471676/Celestial-Experiences#!/about",
+      },
+    ],
+    stack: ["Lua"],
+    date: "Present",
   },
 ];

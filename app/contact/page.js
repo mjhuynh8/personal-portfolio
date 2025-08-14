@@ -4,7 +4,7 @@ import { contacts } from "./contacts";
 export default function Contact() {
   return (
     <div className="container-background min-h-screen">
-      <div className="p-15 flex flex-col gap-15 max-w-screen-2xl mx-auto items-center">
+      <div className="px-20 py-15 flex flex-col gap-15 max-w-screen-2xl mx-auto items-center">
         <h1
           className="text-8xl tracking-tighter 
 text-balance"

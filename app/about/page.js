@@ -5,7 +5,7 @@ import me from "./me_pfp.jpeg";
 export default function About() {
   return (
     <div className="container-background min-h-screen">
-      <div className="p-15 flex flex-col gap-25 max-w-screen-2xl mx-auto">
+      <div className="px-20 py-15 flex flex-col gap-25 max-w-screen-2xl mx-auto">
         <h1
           className="text-8xl tracking-tighter 
 text-balance"
@@ -25,7 +25,7 @@ text-balance"
             </div>
             <div className="flex flex-col gap-5 basis-2/3">
               <h1 className="text-6xl">Hi, I&apos;m Marcus 👋</h1>
-              <p className="text-2xl text-balance">
+              <p className="text-2xl">
                 Welcome! I&apos;m a recent Computer Science graduate from
                 Virginia Tech with a strong passion for learning, building, and
                 growing. I&apos;ve created this website to share some of my work
