@@ -35,17 +35,4 @@ export const projects = [
     ],
     date: "May 2025",
   },
-  {
-    name: "Celestial Experiences",
-    description:
-      "A ROBLOX game studio that I started to learn more about game development and create games for fun.",
-    links: [
-      {
-        name: "Demo",
-        link: "https://www.roblox.com/communities/34471676/Celestial-Experiences#!/about",
-      },
-    ],
-    stack: ["Lua"],
-    date: "Present",
-  },
 ];
